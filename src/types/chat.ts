@@ -3,13 +3,19 @@ export interface PravnaPodlaga {
   link: string;
 }
 
+export interface Povzetek {
+  dejansko_stanje: string;
+  pravno_stanje: string;
+  odgovor: string;
+}
+
 export interface LegalDecision {
   naslov: string;
   stevilka: string;
   kategorije: string[];
   datum: string;
   pravna_podlaga: PravnaPodlaga[];
-  povzetek: string;
+  povzetek: Povzetek;
 }
 
 export interface AssistantResponseData {

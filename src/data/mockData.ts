@@ -19,8 +19,11 @@ export const MOCK_RESPONSE: AssistantResponseData = {
           link: "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO8164",
         },
       ],
-      povzetek:
-        "Informacijski pooblaščenec je ugotovil, da je delodajalec nezakonito uvedel biometrični sistem za evidentiranje delovnega časa brez ustrezne pravne podlage in brez izvedene ocene učinka.",
+      povzetek: {
+        dejansko_stanje: "Delodajalec je uvedel biometrični sistem za evidentiranje delovnega časa zaposlenih brez predhodne izvedbe ocene učinka na varstvo osebnih podatkov.",
+        pravno_stanje: "Obdelava biometričnih podatkov zahteva ustrezno pravno podlago po 6. členu GDPR ter izvedbo DPIA v skladu s 35. členom GDPR.",
+        odgovor: "IP je odredil ustavitev obdelave biometričnih podatkov in naložil izvedbo ocene učinka pred morebitno ponovno uvedbo sistema.",
+      },
     },
     {
       naslov: "Videonadzor na delovnem mestu",
@@ -33,8 +36,11 @@ export const MOCK_RESPONSE: AssistantResponseData = {
           link: "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
         },
       ],
-      povzetek:
-        "Odločba o nezakonitem videonadzoru v pisarniških prostorih, kjer ni bil izkazan upravičen interes delodajalca za izvajanje stalnega videonadzora zaposlenih.",
+      povzetek: {
+        dejansko_stanje: "Delodajalec je izvajal stalni videonadzor v pisarniških prostorih brez ustrezne obrazložitve upravičenega interesa.",
+        pravno_stanje: "Videonadzor na delovnem mestu je dopusten le ob izpolnjevanju pogojev iz 76. člena ZVOP-2 in ob ustrezni pravni podlagi po 6. členu GDPR.",
+        odgovor: "IP je ugotovil kršitev in odredil odstranitev kamer iz pisarniških prostorov.",
+      },
     },
     {
       naslov: "Posredovanje podatkov o bolniški odsotnosti",
@@ -51,8 +57,11 @@ export const MOCK_RESPONSE: AssistantResponseData = {
           link: "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO8164",
         },
       ],
-      povzetek:
-        "Delodajalec je neupravičeno zahteval diagnozo bolniškega staleža od zaposlenega. IP je ugotovil kršitev obdelave posebnih kategorij osebnih podatkov.",
+      povzetek: {
+        dejansko_stanje: "Delodajalec je od zaposlenega zahteval razkritje diagnoze bolniškega staleža kot pogoj za odobritev odsotnosti.",
+        pravno_stanje: "Podatki o zdravstvenem stanju spadajo med posebne kategorije osebnih podatkov po 9. členu GDPR, njihova obdelava je praviloma prepovedana.",
+        odgovor: "IP je ugotovil kršitev in delodajalcu naložil prenehanje zahtevanja diagnoz ter uskladitev postopkov z zakonodajo.",
+      },
     },
   ],
 };
