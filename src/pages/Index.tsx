@@ -4,7 +4,7 @@ import ChatContainer from "@/components/chat/ChatContainer";
 import ChatInput from "@/components/chat/ChatInput";
 import { Scale } from "lucide-react";
 import { toast } from "sonner";
-import { MOCK_RESPONSE } from "@/data/mockData";
+import { MOCK_RESPONSE, MOCK_EMPTY_RESPONSE } from "@/data/mockData";
 
 const Index = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
