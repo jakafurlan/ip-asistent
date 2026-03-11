@@ -12,6 +12,7 @@ export interface LegalDecision {
   datum: string;
   pravna_podlaga: string[];
   povzetek: Povzetek;
+  contradiction?: boolean;
 }
 
 export interface AssistantResponseData {
