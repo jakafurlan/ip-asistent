@@ -66,6 +66,12 @@ export const MOCK_RESPONSE: AssistantResponseData = {
   ],
 };
 
+export const MOCK_EMPTY_RESPONSE: AssistantResponseData = {
+  generalno_menje_o_zadevi:
+    "Opravičujemo se, vendar na podlagi vašega vprašanja ne moremo podati ustreznega pravnega mnenja. Vprašanje ne sodi v področje varstva osebnih podatkov, GDPR, ZVOP-2 ali upravnih postopkov, ki jih obravnava Informacijski pooblaščenec. Prosimo, da zastavite vprašanje, ki se nanaša na ta področja.",
+  table: [],
+};
+
 export const MOCK_CLEN_RESPONSES: Record<string, string> = {
   "GDPR-6":
     "Člen 6 Splošne uredbe o varstvu podatkov (GDPR) – Zakonitost obdelave\n\nObdelava je zakonita le, če je izpolnjen vsaj eden od naslednjih pogojev:\n(a) posameznik je dal privolitev za obdelavo;\n(b) obdelava je potrebna za izvajanje pogodbe;\n(c) obdelava je potrebna za izpolnitev zakonske obveznosti;\n(d) obdelava je potrebna za zaščito življenjskih interesov;\n(e) obdelava je potrebna za opravljanje naloge v javnem interesu;\n(f) obdelava je potrebna zaradi zakonitih interesov upravljavca.",

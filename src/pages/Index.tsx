@@ -29,10 +29,13 @@ const Index = () => {
     try {
       let data: AssistantResponseData;
 
-      if (question.toLowerCase().trim() === "mock") {
-        // Simulate network delay
+      const q = question.toLowerCase().trim();
+      if (q === "mock") {
         await new Promise((r) => setTimeout(r, 1200));
         data = MOCK_RESPONSE;
+      } else if (q === "mock2") {
+        await new Promise((r) => setTimeout(r, 1200));
+        data = MOCK_EMPTY_RESPONSE;
       } else {
         const res = await fetch("/api/ask", {
           method: "POST",
