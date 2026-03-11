@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { LegalDecision } from "@/types/chat";
 import { format, parse } from "date-fns";
 import { sl } from "date-fns/locale";
+import { ChevronDown } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 interface LegalTableProps {
   decisions: LegalDecision[];
