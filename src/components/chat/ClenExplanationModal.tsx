@@ -20,6 +20,16 @@ const ClenExplanationModal = ({ open, onClose, name }: ClenExplanationModalProps
     setError(null);
     setExplanation(null);
 
+    // Check mock data first
+    const mockText = MOCK_CLEN_RESPONSES[name];
+    if (mockText) {
+      setTimeout(() => {
+        setExplanation(mockText);
+        setLoading(false);
+      }, 500);
+      return;
+    }
+
     fetch(`/api/clen?name=${encodeURIComponent(name)}`)
       .then(async (res) => {
         if (!res.ok) throw new Error("Napaka pri pridobivanju podatkov");

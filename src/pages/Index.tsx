@@ -28,15 +28,21 @@ const Index = () => {
     setIsLoading(true);
 
     try {
-      const res = await fetch("/api/ask", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question }),
-      });
+      let data: AssistantResponseData;
 
-      if (!res.ok) throw new Error("Napaka strežnika");
-
-      const data: AssistantResponseData = await res.json();
+      if (question.toLowerCase().trim() === "mock") {
+        // Simulate network delay
+        await new Promise((r) => setTimeout(r, 1200));
+        data = MOCK_RESPONSE;
+      } else {
+        const res = await fetch("/api/ask", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question }),
+        });
+        if (!res.ok) throw new Error("Napaka strežnika");
+        data = await res.json();
+      }
 
       const assistantMsg: ChatMessage = {
         id: crypto.randomUUID(),
