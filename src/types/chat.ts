@@ -12,6 +12,7 @@ export interface Povzetek {
 export interface LegalDecision {
   naslov: string;
   stevilka: string;
+  url: string;
   kategorije: string[];
   datum: string;
   pravna_podlaga: PravnaPodlaga[];
