@@ -68,22 +68,27 @@
       }
     },
     {
-      "naslov": "Objava podatkov registriranih vozil",
-      "url": "https://www.ip-rs.si/mnenja-zvop-2/objava-podatkov-registriranih-vozil-1724752777",
-      "številka": "07121-1/2024/968",
+      "naslov": "Obdelava osebnih podatkov s strani občine v okviru javnega razpisa",
+      "url": "https://www.ip-rs.si/mnenja-zvop-2/obdelava-osebnih-podatkov-s-strani-občine-v-okviru-javnega-razpisa-1701688300",
+      "številka": "07121-1/2023/1489",
+      "contradiction": true,
       "kategorije": [
-        "Definicija OP",
-        "Pravne podlage",
-        "Pridobivanje OP iz zbirk",
-        "Svetovni splet",
-        "Zbirke osebnih podatkov"
+        "Občine",
+        "Posredovanje osebnih podatkov",
+        "Pravne podlage"
       ],
-      "datum": "26.08.2024",
-      "pravna_podlaga": [],
+      "datum": "28.11.2023",
+      "pravna_podlaga": [
+        "prvega odstavka 6. člena Splošne uredbe",
+        "6. člena ZVOP-2",
+        "6. člena Splošne uredbe",
+        "tretjega odstavka 6. člena Splošne uredbe",
+        "21. člen ZLS"
+      ],
       "povzetek": {
-        "dejansko_stanje": "v zvezi z objavami podatkov o registriranih vozilih v RS na portalu OPSI. Pojasnjujete, da je trenutno na mestu, kjer so se podatki objavljali, pojasnilo: \"V skladu z določbami Zakona o varstvu osebnih podatkov (ZVOP-2) in Splošne uredbe o varstvu podatkov št 2016/679 (GDPR), podatki o vozilih do nadaljnjega ne bodo objavljeni na portalu OPSI. Za več informacij se lahko obrnete na Ministrstvo za infrastrukturo, elektronski naslov:",
-        "pravno_vprašanje": "Ali je dopustna obdelava osebnih podatkov v zvezi z: Objava podatkov registriranih vozil?",
-        "odgovor": "V zvezi z vašim vprašanjem vas seznanjamo, da je IP pri Ministrstvu za infrastrukturo, ki je upravljavec osnovne zbirke registriranih vozil, del katere je objavljal na portalu OPSI, začel inšpekcijski postopek. Inšpekcijska zadeva je v teku. Iz postopka doslej izhajajo ugotovitve, da je zbirka podatkov, ki se je periodično osveževala na portalu OPSI, vsebovala osebne podatke, in sicer: identifikacijsko številko vozila (VIN), tehnične podatke o vozilu in druge podatke o uporabniku in lastniku vozila (spol, starost, občina prebivališča itd.). V skladu z evropsko prakso je treba VIN za registrirana vozila, šteti za osebni podatek, ker kaže na uporabnika ali lastnika vozila. Izvedbena uredba Komisije (EU) 2021/392 [1] v uvodni določbi 11 izrecno določa: » Podatki o dejanski porabi goriva in električne energije bi se morali zbirati skupaj z identifikacijsko številko vozila. Identifikacijska številka vozila se šteje za osebni podatek od trenutka, ko je vozilo registrirano, zato zanjo veljajo zahteve, ki so v zvezi z varstvom takih podatkov navedene v Uredbi (EU) 2016/679 Evropskega parlamenta in Sveta . Obdelava identifikacijskih številk vozil za namene Uredbe (EU) 2019/631 bi se morala v skladu s členom 6(1)(c) Uredbe (EU) 2016/679 šteti za zakonito. Poleg tega bi bilo treba določiti, da se morajo subjekti, vključeni v zbiranje, sporočanje in obdelavo identifikacijskih številk vozil, šteti za upravljavce takšnih podatkov v smislu točke 7 člena 4 Uredbe (EU) 2016/679, in, kar zadeva EGP in Komisijo, v smislu člena 3(8) Uredbe (EU) 2018/1725 Evropskega parlamenta in Sveta. Treba bi bilo tudi zagotoviti, da se identifikacijske številke vozil zbirajo z uporabo varnih komunikacijskih sredstev in da so posamezniki, na katere se nanašajo osebni podatki, in sicer lastniki vozil, o tem ustrezno obveščeni v skladu s členoma 13 in 14 navedene Uredbe (EU) 2016/679. « V zvezi z izvajanjem navedene EU uredbe je podal formalno mnenje tudi Evropski nadzorni organ za varstvo osebnih podatkov (EDPS), [2] ki se v tč. 2.2. opredeljuje posebej do statusa VIN kot osebnega podatka. Ker je treba podatke o VIN šteti za osebne podatke, je treba posledično tudi preostale tehnične podatke, ki so objavljeni v povezavi z določenim vozilom, šteti za osebne podatke."
+        "dejansko_stanje": "Navajate, da občina objavlja razpise za sofinanciranje društev, pri čemer od društev zahteva, da pri prijavi predložijo poimenski spisek članov z naslovi stalnih prebivališč. Zanima vas, ali za ta spisek in podatke potrebujete soglasje članov?",
+        "pravno_vprašanje": "Navajate, da občina objavlja razpise za sofinanciranje društev, pri čemer od društev zahteva, da pri prijavi predložijo poimenski spisek članov z naslovi stalnih prebivališč. Zanima vas, ali za ta spisek in podatke potrebujete soglasje članov?",
+        "odgovor": "IP meni, da ima občina za namen odločanja o sofinanciranju in za namen nadzora nad zagotavljanjem namenskosti porabe programov, ki jih na podlagi javnega razpisa sofinancira, pravno podlago v točki c) prvega odstavka 6. člena Splošne uredbe ter drugem odstavku 6. člena ZVOP-2 v zvezi z 21. in 21.a členom Zakona o lokalni samoupravi (ZLS) za pridobitev in obdelavo tistih osebnih podatkov članov društva, ki so pomembni in potrebni za izvedbo razpisa. Predlagamo vam, da se pri upravljavcu (občini) prepričate o pravni podlagi in nujnosti obdelave zahtevanih osebnih podatkov. Če opisana pravna podlaga obstaja, vam posebnih privolitev s strani svojih članov ni treba pridobivati."
       }
     },
     {
