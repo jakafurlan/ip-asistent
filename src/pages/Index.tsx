@@ -73,7 +73,7 @@ const Index = () => {
           </div>
           <div>
             <h1 className="font-display text-lg font-bold leading-tight text-foreground">
-              Informacijski Pooblaščenec Asistent
+              IP asistent
             </h1>
             <p className="text-xs text-muted-foreground">
               Postavite pravno vprašanje glede varstva osebnih podatkov ali upravnih postopkov.
