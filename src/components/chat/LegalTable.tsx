@@ -33,7 +33,11 @@ const LegalTable = ({ decisions }: LegalTableProps) => {
           {decisions.map((d, i) => (
             <tr key={i} className="border-b border-border last:border-0 hover:bg-muted/30 transition-colors align-top">
               <td className="px-3 py-3 font-medium">{d.naslov}</td>
-              <td className="px-3 py-3 text-muted-foreground text-xs">{d.stevilka}</td>
+              <td className="px-3 py-3 text-xs">
+                <a href={d.url} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors">
+                  {d.stevilka}
+                </a>
+              </td>
               <td className="px-3 py-3">
                 <div className="flex flex-wrap gap-1">
                   {d.kategorije.map((k, j) => (

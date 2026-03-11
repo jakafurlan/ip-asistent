@@ -7,6 +7,7 @@ export const MOCK_RESPONSE: AssistantResponseData = {
     {
       naslov: "Nadzor delovnega časa zaposlenih",
       stevilka: "0712-1/2023/458",
+      url: "https://www.ip-rs.si/mnenja-gdpr/0712-1-2023-458",
       kategorije: ["Delovno pravo", "Nadzor zaposlenih", "DPIA"],
       datum: "2023-11-15",
       pravna_podlaga: [
@@ -28,6 +29,7 @@ export const MOCK_RESPONSE: AssistantResponseData = {
     {
       naslov: "Videonadzor na delovnem mestu",
       stevilka: "0712-1/2022/312",
+      url: "https://www.ip-rs.si/mnenja-gdpr/0712-1-2022-312",
       kategorije: ["Videonadzor", "Delovno pravo"],
       datum: "2022-06-20",
       pravna_podlaga: [
@@ -45,6 +47,7 @@ export const MOCK_RESPONSE: AssistantResponseData = {
     {
       naslov: "Posredovanje podatkov o bolniški odsotnosti",
       stevilka: "0712-1/2024/89",
+      url: "https://www.ip-rs.si/mnenja-gdpr/0712-1-2024-89",
       kategorije: ["Zdravstveni podatki", "Delovno pravo", "Posebne kategorije"],
       datum: "2024-01-10",
       pravna_podlaga: [
@@ -66,6 +69,7 @@ export const MOCK_RESPONSE: AssistantResponseData = {
     {
       naslov: "Hramba podatkov po prenehanju pogodbe",
       stevilka: "0712-1/2021/201",
+      url: "https://www.ip-rs.si/mnenja-gdpr/0712-1-2021-201",
       kategorije: ["Hramba podatkov", "Pogodbena obdelava"],
       datum: "2021-03-22",
       pravna_podlaga: [
@@ -83,6 +87,7 @@ export const MOCK_RESPONSE: AssistantResponseData = {
     {
       naslov: "Uporaba piškotkov brez privolitve",
       stevilka: "0712-1/2024/312",
+      url: "https://www.ip-rs.si/mnenja-gdpr/0712-1-2024-312",
       kategorije: ["Piškotki", "Privolitev", "ePrivacy"],
       datum: "2024-06-05",
       pravna_podlaga: [
