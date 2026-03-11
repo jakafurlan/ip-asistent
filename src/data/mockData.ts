@@ -7,6 +7,7 @@ export const MOCK_RESPONSE: AssistantResponseData = {
     {
       naslov: "Nadzor delovnega časa zaposlenih",
       stevilka: "0712-1/2023/458",
+      url: "https://www.ip-rs.si/mnenja-gdpr/0712-1-2023-458",
       kategorije: ["Delovno pravo", "Nadzor zaposlenih", "DPIA"],
       datum: "2023-11-15",
       pravna_podlaga: [
