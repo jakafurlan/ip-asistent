@@ -25,7 +25,7 @@ const OpinionTimeline = ({ decisions }: OpinionTimelineProps) => {
   };
 
   return (
-    <div className="rounded-xl border border-border bg-card p-4 shadow-sm">
+    <div className="pt-2 pb-1">
       <h3 className="mb-4 font-display text-sm font-semibold text-foreground">
         Časovnica mnenj
       </h3>
