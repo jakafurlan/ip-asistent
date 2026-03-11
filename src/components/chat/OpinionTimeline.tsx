@@ -53,8 +53,12 @@ const OpinionTimeline = ({ decisions }: OpinionTimelineProps) => {
                   className={cn(
                     "relative z-10 flex h-9 w-9 items-center justify-center rounded-full border-2 transition-all duration-200",
                     isExpanded
-                      ? "border-primary bg-primary text-primary-foreground shadow-md scale-110"
-                      : "border-border bg-card text-muted-foreground hover:border-primary hover:bg-primary/10"
+                      ? decision.contradiction
+                        ? "border-destructive bg-destructive text-destructive-foreground shadow-md scale-110"
+                        : "border-primary bg-primary text-primary-foreground shadow-md scale-110"
+                      : decision.contradiction
+                        ? "border-destructive/60 bg-destructive/10 text-destructive hover:border-destructive hover:bg-destructive/20"
+                        : "border-border bg-card text-muted-foreground hover:border-primary hover:bg-primary/10"
                   )}
                 >
                   <ChevronRight
