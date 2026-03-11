@@ -47,6 +47,7 @@ export const MOCK_RESPONSE: AssistantResponseData = {
     {
       naslov: "Posredovanje podatkov o bolniški odsotnosti",
       stevilka: "0712-1/2024/89",
+      url: "https://www.ip-rs.si/mnenja-gdpr/0712-1-2024-89",
       kategorije: ["Zdravstveni podatki", "Delovno pravo", "Posebne kategorije"],
       datum: "2024-01-10",
       pravna_podlaga: [
