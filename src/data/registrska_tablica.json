@@ -87,49 +87,50 @@
       }
     },
     {
-      "naslov": "Obdelava osebnih podatkov zaradi najema nadomestnega avtomobila",
-      "url": "https://www.ip-rs.si/mnenja-zvop-2/obdelava-osebnih-podatkov-zaradi-najema-nadomestnega-avtomobila-1689662847",
-      "številka": "07121-1/2023/922",
+      "naslov": "ANPR na javnih površinah in pridobivanje podatkov iz evidence registriranih vozil",
+      "url": "https://www.ip-rs.si/mnenja-zvop-2/anpr-na-javnih-površinah-in-pridobivanje-podatkov-iz-evidence-registriranih-vozil-1740563880",
+      "številka": "07121-1/2025/231",
+      "contradiction": true,
       "kategorije": [
-        "Informiranje posameznika",
-        "Pravica do seznanitve z lastnimi osebnimi podatki",
-        "Zavarovalništvo"
+        "Moderne tehnologije",
+        "Pravne podlage",
+        "Pridobivanje OP iz zbirk",
+        "Video in avdio nadzor"
       ],
-      "datum": "10.07.2023",
+      "datum": "24.02.2025",
       "pravna_podlaga": [
-        "6. člena Splošne uredbe",
-        "13. členom Splošne uredbe",
         "prvega odstavka 6. člena Splošne uredbe",
-        "prvega odstavka 94. člena ZVOP-2",
-        "13. člen Splošne uredbe",
-        "15. členom Splošne uredbe"
+        "62. člena ZMV-1",
+        "64. členu ZMV-1"
       ],
       "povzetek": {
-        "dejansko_stanje": "Navajate, da imate pri … sklenjeno tudi opcijo …, v okviru katere je poleg prevoza okvarjenega ali poškodovanega vozila zagotovljeno nadomestno vozilo za največ 8 dni. Zavarovalnica ima pogodbene avto hiše, ki za zavarovalnico strankam zavarovalnice posojajo nadomestna vozila. Opisujete, da nekatere ob predaji avtomobila zahtevajo le vozniško dovoljenje, kar se vam zdi potreben minimum. Včasih pa se vam zgodi, da od vas zahtevajo še dodatno osebno izkaznico in celo bančno kartico. Menite, da gre za nepooblaščeno zbiranje osebnih podatkov, saj z večino teh podatkov razpolaga zavarovalnica sama, ki bi lahko podatke posredovala avto hiši.",
-        "pravno_vprašanje": "Ali je dopustna obdelava osebnih podatkov v zvezi z: Obdelava osebnih podatkov zaradi najema nadomestnega avtomobila?",
-        "odgovor": "Za vsako obdelavo osebnih podatkov (tako za zbiranje kot za posredovanje podatkov) mora upravljavec izkazati ustrezno pravno podlago po prvem odstavku 6. člena Splošne uredbe. Upravljavec mora upoštevati tudi t.i. načelo najmanjšega obsega podatkov, skladno s katerim morajo biti osebni podatki ustrezni, relevantni in omejeni na to, kar je potrebno za namene, za katere se obdelujejo. IP tako z nezavezujočim mnenjem ne more vnaprej odgovoriti na vprašanje, kateri osebni podatki so za namen izvajanja pogodbe o najemu nadomestnega vozila nujno potrebni. O konkretni obdelavi bi lahko odločal zgolj v konkretnem inšpekcijskem postopku. Posameznikom morajo biti pred posredovanjem osebnih podatkov zagotovljene informacije o obdelavi osebnih podatkov skladno s 13. členom Splošne uredbe (npr. nameni ter pravna podlaga za obdelavo osebnih podatkov, uporabniki osebnih podatkov, obdobje hrambe, itd.). Predlagamo vam, da se pred posredovanjem svojih osebnih podatkov vedno prepričate, v katere namene jih želi upravljavec (avto hiša) prejeti."
+        "dejansko_stanje": "Informacijski pooblaščenec (v nadaljevanju: IP) je prejel vaše zaprosilo za mnenje glede pravne podlage za izvajanje avtomatske prepoznave registrskih tablic in pridobivanja podatkov iz javne evidence.",
+        "pravno_vprašanje": "Ali je dopustna obdelava osebnih podatkov v zvezi z: ANPR na javnih površinah in pridobivanje podatkov iz evidence registriranih vozil?",
+        "odgovor": "IP kot nadzorni organ na področju varstva osebnih podatkov v okviru neobvezujočega mnenja ne more presojati IP meni, da bi v praksi kot pravna podlaga, na kateri bi lahko temeljila uporaba sistemov za avtomatsko prepoznavo registrskih tablic na javnih površinah, lahko najpogosteje prišla v poštev pravna podlaga iz točke (f) prvega odstavka 6. člena Splošne uredbe, niso pa povsem izključene tudi druge pravne podlage iz prvega odstavka 6. člena Splošne uredbe (npr. točka (b). ZMV-1 jasno določa, za katere namene se vodi evidenca registriranih vozil (med temi nameni ni ugotavljanja identitete voznika vozila, ki ni plačal parkirnine na parkirišču trgovskega centra) in kateri organi imajo pri svojem delu pravico brezplačnega dostopa do podatkov iz evidence."
       }
     },
     {
-      "naslov": "Objava osebnih podatkov na podlagi 131. in 132. člena Zakona o obnovi, razvoju in zagotavljanju finančnih sredstev",
-      "url": "https://www.ip-rs.si/mnenja-zvop-2/objava-osebnih-podatkov-na-podlagi-131-in-132-člena-zakona-o-obnovi-razvoju-in-zagotavljanju-finančnih-sredstev-1726725612",
-      "številka": "07120-1/2024/55",
+      "naslov": "Obdelava osebnih podatkov s strani občine v okviru javnega razpisa",
+      "url": "https://www.ip-rs.si/mnenja-zvop-2/obdelava-osebnih-podatkov-s-strani-občine-v-okviru-javnega-razpisa-1701688300",
+      "številka": "07121-1/2023/1489",
+      "contradiction": true,
       "kategorije": [
-        "Svetovni splet",
-        "Uradni postopki"
+        "Občine",
+        "Posredovanje osebnih podatkov",
+        "Pravne podlage"
       ],
-      "datum": "13.02.2024",
+      "datum": "28.11.2023",
       "pravna_podlaga": [
-        "132. člena ZORZFS",
-        "131. člena ZORZFS",
-        "četrtega odstavka 131. člena ZORZFS",
-        "132. člen ZORZFS",
-        "28. člena Splošne uredbe"
+        "prvega odstavka 6. člena Splošne uredbe",
+        "6. člena ZVOP-2",
+        "6. člena Splošne uredbe",
+        "tretjega odstavka 6. člena Splošne uredbe",
+        "21. člen ZLS"
       ],
       "povzetek": {
-        "dejansko_stanje": "Prejeli smo vaše vprašanje o tem, pod kakšnimi pogoji, bi katera koli vladna institucija, konkretno denimo Urad vlade RS za komuniciranje, ki skrbi za objave vladnih organov na spletu, imel pravno podlago javno objaviti podatke o izplačanih sredstvih in prejemnikih ter o donacijah in donatorjih, na podlagi 131. in 132. člena Zakona o obnovi, razvoju in zagotavljanju finančnih sredstev (ZORZFS). Kot navajate, ZORZFS v 131. členu določa javno objavo podatkov o izplačanih sredstvih in prejemnikih, in sicer določa, da Vladna služba za obnovo vsaj enkrat mesečno objavi posodobljen skupni seznam upravičenih prejemnikov pomoči z zakonsko določeno vsebino, ki jo pripravi na podlagi podatkov, ki ji jih posredujejo izplačevalci sredstev in odločevalci o danih garancijah in jamstvih ter SID banka. Prav tako za namen preglednost ter javnega nadzora nad financiranjem porabe javnih finančnih sredstev Vladna služba za obnovo na podlagi 132. člena ZORZFS enkrat mesečno objavi posodobljen skupni seznam donatorjev in višine njihovih donacij, in sicer za tiste donatorje, ki so v skladu z ZORZFS podali soglasje za tako objavo Vladni službi za obnovo.",
-        "pravno_vprašanje": "Ali je dopustna obdelava osebnih podatkov v zvezi z: Objava osebnih podatkov na podlagi 131. in 132. člena Zakona o obnovi, razvoju in zagotavljanju finančnih sredstev?",
-        "odgovor": "Postopek javne objave podatkov je treba presojati glede na vsebino podatkov, ki naj bi bili predmet objave, zakonsko ureditev oziroma pravne podlage za objavo v posameznem primeru in konkretnega zavezanca. Urad Vlade RS za komuniciranje kot samostojna strokovna služba Vlade RS odvisno od konkretnega primera lahko nastopa bodisi kot samostojen/skupni upravljavec takih osebnih podatkov bodisi v vlogi pogodbenega obdelovalca, če bi objavo izvedel po navodilu, v imenu in za račun npr. Vladne službe za obnovo. Konkretne presoje ureditve teh razmerij pa IP v mnenju ne more izvesti. Postopek javne objave podatkov je treba presojati glede na vsebino podatkov, ki naj bi bili predmet objave, zakonsko ureditev oziroma pravne podlage za objavo v posameznem primeru in konkretnega zavezanca. Urad Vlade RS za komuniciranje kot samostojna strokovna služba Vlade RS odvisno od konkretnega primera lahko nastopa bodisi kot samostojen/skupni upravljavec takih osebnih podatkov bodisi v vlogi pogodbenega obdelovalca, če bi objavo izvedel po navodilu, v imenu in za račun npr. Vladne službe za obnovo. Konkretne presoje ureditve teh razmerij pa IP v mnenju ne more izvesti. Ni pa izključeno, da bi lahko urad določene zakonito pridobljene (osebne) podatke samostojno objavil v okviru izvajanja svojih samostojnih nalog priprave gradiv za medije. Odvisno od konkretne situacije je torej treba presojati odgovornosti in pravno podlago za objavo podatkov. V kolikor gre v posameznem primeru za prosto dostopne informacije javnega značaja, ki so javne erga omnes , lahko te podatke objavi dejansko kdorkoli. V tem primeru posebna dodatna ureditev načeloma ne bila potrebna (podatki o donatorjih in donacijah na splošno pa načeloma niso take prosto dostopne informacije javnega značaja)."
+        "dejansko_stanje": "Navajate, da občina objavlja razpise za sofinanciranje društev, pri čemer od društev zahteva, da pri prijavi predložijo poimenski spisek članov z naslovi stalnih prebivališč. Zanima vas, ali za ta spisek in podatke potrebujete soglasje članov?",
+        "pravno_vprašanje": "Navajate, da občina objavlja razpise za sofinanciranje društev, pri čemer od društev zahteva, da pri prijavi predložijo poimenski spisek članov z naslovi stalnih prebivališč. Zanima vas, ali za ta spisek in podatke potrebujete soglasje članov?",
+        "odgovor": "IP meni, da ima občina za namen odločanja o sofinanciranju in za namen nadzora nad zagotavljanjem namenskosti porabe programov, ki jih na podlagi javnega razpisa sofinancira, pravno podlago v točki c) prvega odstavka 6. člena Splošne uredbe ter drugem odstavku 6. člena ZVOP-2 v zvezi z 21. in 21.a členom Zakona o lokalni samoupravi (ZLS) za pridobitev in obdelavo tistih osebnih podatkov članov društva, ki so pomembni in potrebni za izvedbo razpisa. Predlagamo vam, da se pri upravljavcu (občini) prepričate o pravni podlagi in nujnosti obdelave zahtevanih osebnih podatkov. Če opisana pravna podlaga obstaja, vam posebnih privolitev s strani svojih članov ni treba pridobivati."
       }
     },
     {
