@@ -1,11 +1,20 @@
 import { LegalDecision } from "@/types/chat";
-import { format, parseISO } from "date-fns";
+import { format, parse } from "date-fns";
 import { sl } from "date-fns/locale";
-import ClenBadge from "./ClenBadge";
 
 interface LegalTableProps {
   decisions: LegalDecision[];
 }
+
+const parseDate = (dateStr: string) => {
+  try {
+    // Handle "dd.MM.yyyy" format
+    const parsed = parse(dateStr, "dd.MM.yyyy", new Date());
+    return format(parsed, "d. MMM yyyy", { locale: sl });
+  } catch {
+    return dateStr;
+  }
+};
 
 const LegalTable = ({ decisions }: LegalTableProps) => {
   return (
@@ -35,7 +44,7 @@ const LegalTable = ({ decisions }: LegalTableProps) => {
               <td className="px-3 py-3 font-medium">{d.naslov}</td>
               <td className="px-3 py-3 text-xs">
                 <a href={d.url} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors">
-                  {d.stevilka}
+                  {d.številka}
                 </a>
               </td>
               <td className="px-3 py-3">
@@ -48,19 +57,18 @@ const LegalTable = ({ decisions }: LegalTableProps) => {
                 </div>
               </td>
               <td className="px-3 py-3 text-muted-foreground whitespace-nowrap text-xs">
-                {(() => {
-                  try {
-                    return format(parseISO(d.datum), "d. MMM yyyy", { locale: sl });
-                  } catch {
-                    return d.datum;
-                  }
-                })()}
+                {parseDate(d.datum)}
               </td>
               <td className="px-3 py-3">
                 <div className="flex flex-wrap gap-1">
-                  {d.pravna_podlaga.flatMap((p) =>
-                    p.cleni.map((c, ci) => <ClenBadge key={ci} name={c} />)
-                  )}
+                  {d.pravna_podlaga.map((p, pi) => (
+                    <span
+                      key={pi}
+                      className="inline-flex items-center rounded-md bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground"
+                    >
+                      {p}
+                    </span>
+                  ))}
                 </div>
               </td>
               <td className="px-3 py-3">
@@ -71,7 +79,7 @@ const LegalTable = ({ decisions }: LegalTableProps) => {
                   </li>
                   <li>
                     <span className="font-semibold text-foreground">Pravno vprašanje: </span>
-                    {d.povzetek.pravno_stanje}
+                    {d.povzetek.pravno_vprašanje}
                   </li>
                   <li>
                     <span className="font-semibold text-foreground">Odgovor: </span>
