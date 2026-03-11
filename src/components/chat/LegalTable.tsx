@@ -37,7 +37,7 @@ const LegalTable = ({ decisions }: LegalTableProps) => {
               <td className="px-3 py-3">
                 <div className="flex flex-wrap gap-1">
                   {d.kategorije.map((k, j) => (
-                    <span key={j} className="inline-flex rounded-full bg-secondary/30 px-2 py-0.5 text-xs font-medium text-secondary-foreground">
+                    <span key={j} className="inline-flex rounded-full bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground">
                       {k}
                     </span>
                   ))}
