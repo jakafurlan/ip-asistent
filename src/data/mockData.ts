@@ -69,6 +69,7 @@ export const MOCK_RESPONSE: AssistantResponseData = {
     {
       naslov: "Hramba podatkov po prenehanju pogodbe",
       stevilka: "0712-1/2021/201",
+      url: "https://www.ip-rs.si/mnenja-gdpr/0712-1-2021-201",
       kategorije: ["Hramba podatkov", "Pogodbena obdelava"],
       datum: "2021-03-22",
       pravna_podlaga: [
