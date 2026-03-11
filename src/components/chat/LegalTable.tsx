@@ -54,8 +54,8 @@ const LegalTable = ({ decisions }: LegalTableProps) => {
         <colgroup>
           <col className="w-[12%]" />
           <col className="w-[10%]" />
-          <col className="w-[10%]" />
           <col className="w-[8%]" />
+          <col className="w-[10%]" />
           <col className="w-[10%]" />
           <col className="w-[50%]" />
         </colgroup>
