@@ -54,7 +54,8 @@
       "url": "https://www.ip-rs.si/mnenja-zvop-2/objava-podatkov-registriranih-vozil-1736160616",
       "številka": "07121-1/2024/1395",
       "kategorije": [
-        "Anonimizacija/psevdonimizacija",
+        "Anonimizacija",
+        "Psevdonimizacija",
         "Pridobivanje OP iz zbirk",
         "Svetovni splet"
       ],
@@ -136,7 +137,8 @@
       "url": "https://www.ip-rs.si/mnenja-zvop-2/hramba-posebnih-vrst-osebnih-podatkov-v-upravnem-spisu-po-pravnomočnosti-odločitve-upravnega-organa-1681989529",
       "številka": "07120-1/2023/232",
       "kategorije": [
-        "Anonimizacija/psevdonimizacija",
+        "Anonimizacija",
+        "Psevdonimizacija",
         "Rok hrambe OP",
         "Šolstvo",
         "Upravni postopki",
