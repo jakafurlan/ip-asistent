@@ -12,7 +12,7 @@ const ClenBadge = ({ name }: ClenBadgeProps) => {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="inline-flex items-center rounded-md bg-badge-custom px-2 py-0.5 text-xs font-medium text-badge-custom-foreground transition-colors hover:opacity-80"
+        className="inline-flex items-center rounded-md bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground transition-colors hover:opacity-80"
       >
         {name}
       </button>
