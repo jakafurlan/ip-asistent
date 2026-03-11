@@ -19,6 +19,34 @@ const parseDate = (dateStr: string) => {
   }
 };
 
+const PravnaPodlagaCell = ({ items }: { items: string[] }) => {
+  const [expanded, setExpanded] = useState(false);
+  const visible = expanded ? items : items.slice(0, 3);
+  const hasMore = items.length > 3;
+
+  return (
+    <div className="flex flex-wrap gap-1">
+      {visible.map((p, pi) => (
+        <span
+          key={pi}
+          className="inline-flex items-center rounded-md bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground"
+        >
+          {p}
+        </span>
+      ))}
+      {hasMore && (
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="inline-flex items-center gap-0.5 rounded-md bg-muted/60 px-2 py-0.5 text-xs font-medium text-primary hover:bg-muted transition-colors"
+        >
+          {expanded ? "Manj" : `+${items.length - 3}`}
+          <ChevronDown className={cn("h-3 w-3 transition-transform", expanded && "rotate-180")} />
+        </button>
+      )}
+    </div>
+  );
+};
+
 const LegalTable = ({ decisions }: LegalTableProps) => {
   return (
     <div className="overflow-x-auto rounded-xl border border-border bg-card shadow-sm">
