@@ -4,7 +4,7 @@ import ChatContainer from "@/components/chat/ChatContainer";
 import ChatInput from "@/components/chat/ChatInput";
 import { Scale } from "lucide-react";
 import { toast } from "sonner";
-import { MOCK_RESPONSE } from "@/data/mockData";
+import { MOCK_RESPONSE, MOCK_EMPTY_RESPONSE } from "@/data/mockData";
 
 const Index = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -29,10 +29,13 @@ const Index = () => {
     try {
       let data: AssistantResponseData;
 
-      if (question.toLowerCase().trim() === "mock") {
-        // Simulate network delay
+      const q = question.toLowerCase().trim();
+      if (q === "mock") {
         await new Promise((r) => setTimeout(r, 1200));
         data = MOCK_RESPONSE;
+      } else if (q === "mock2") {
+        await new Promise((r) => setTimeout(r, 1200));
+        data = MOCK_EMPTY_RESPONSE;
       } else {
         const res = await fetch("/api/ask", {
           method: "POST",
