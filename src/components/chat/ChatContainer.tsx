@@ -23,7 +23,7 @@ const ChatContainer = ({ messages }: ChatContainerProps) => {
               <Scale className="h-8 w-8 text-primary" />
             </div>
             <h2 className="font-display text-2xl font-bold text-foreground">
-              Pravni asistent
+              IP asistent
             </h2>
             <p className="mt-2 max-w-md text-sm text-muted-foreground">
               Zastavite vprašanje glede varstva osebnih podatkov, GDPR, ZVOP-2 ali upravnih postopkov.
