@@ -29,6 +29,7 @@ export const MOCK_RESPONSE: AssistantResponseData = {
     {
       naslov: "Videonadzor na delovnem mestu",
       stevilka: "0712-1/2022/312",
+      url: "https://www.ip-rs.si/mnenja-gdpr/0712-1-2022-312",
       kategorije: ["Videonadzor", "Delovno pravo"],
       datum: "2022-06-20",
       pravna_podlaga: [
