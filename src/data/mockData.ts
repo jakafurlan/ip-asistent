@@ -87,6 +87,7 @@ export const MOCK_RESPONSE: AssistantResponseData = {
     {
       naslov: "Uporaba piškotkov brez privolitve",
       stevilka: "0712-1/2024/312",
+      url: "https://www.ip-rs.si/mnenja-gdpr/0712-1-2024-312",
       kategorije: ["Piškotki", "Privolitev", "ePrivacy"],
       datum: "2024-06-05",
       pravna_podlaga: [
