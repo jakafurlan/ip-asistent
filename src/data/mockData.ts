@@ -19,8 +19,11 @@ export const MOCK_RESPONSE: AssistantResponseData = {
           link: "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO8164",
         },
       ],
-      povzetek:
-        "Informacijski pooblaščenec je ugotovil, da je delodajalec nezakonito uvedel biometrični sistem za evidentiranje delovnega časa brez ustrezne pravne podlage in brez izvedene ocene učinka.",
+      povzetek: {
+        dejansko_stanje: "Delodajalec je uvedel biometrični sistem za evidentiranje delovnega časa zaposlenih brez predhodne izvedbe ocene učinka na varstvo osebnih podatkov.",
+        pravno_stanje: "Obdelava biometričnih podatkov zahteva ustrezno pravno podlago po 6. členu GDPR ter izvedbo DPIA v skladu s 35. členom GDPR.",
+        odgovor: "IP je odredil ustavitev obdelave biometričnih podatkov in naložil izvedbo ocene učinka pred morebitno ponovno uvedbo sistema.",
+      },
     },
     {
       naslov: "Videonadzor na delovnem mestu",
