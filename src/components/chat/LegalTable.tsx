@@ -63,16 +63,7 @@ const LegalTable = ({ decisions }: LegalTableProps) => {
                 {parseDate(d.datum)}
               </td>
               <td className="px-3 py-3">
-                <div className="flex flex-wrap gap-1">
-                  {d.pravna_podlaga.map((p, pi) => (
-                    <span
-                      key={pi}
-                      className="inline-flex items-center rounded-md bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground"
-                    >
-                      {p}
-                    </span>
-                  ))}
-                </div>
+                <PravnaPodlagaCell items={d.pravna_podlaga} />
               </td>
               <td className="px-3 py-3">
                 <ul className="space-y-2 text-muted-foreground">
