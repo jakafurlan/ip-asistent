@@ -1,7 +1,7 @@
 import { AssistantResponseData } from "@/types/chat";
 import LegalOpinionCard from "./LegalOpinionCard";
 import LegalTable from "./LegalTable";
-
+import OpinionTimeline from "./OpinionTimeline";
 interface AssistantResponseProps {
   data: AssistantResponseData;
 }
