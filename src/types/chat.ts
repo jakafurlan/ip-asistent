@@ -18,6 +18,7 @@ export interface LegalDecision {
 export interface AssistantResponseData {
   generalno_mnenje_o_zadevi: string;
   table: LegalDecision[];
+  contradiction_explanation?: string;
 }
 
 export interface ChatMessage {
