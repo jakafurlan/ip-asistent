@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Loader2 } from "lucide-react";
+import { MOCK_CLEN_RESPONSES } from "@/data/mockData";
 
 interface ClenExplanationModalProps {
   open: boolean;
