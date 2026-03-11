@@ -37,7 +37,7 @@ const ChatInput = ({ onSend, disabled }: ChatInputProps) => {
         </button>
       </div>
       <p className="mt-2 text-center text-xs text-muted-foreground">
-        UI umetna inteligenca lahko naredi napake. Preverite pomembne informacije.
+        Umetna inteligenca lahko naredi napake. Preverite pomembne informacije.
       </p>
     </div>
   );
