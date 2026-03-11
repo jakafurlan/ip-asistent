@@ -57,8 +57,11 @@ export const MOCK_RESPONSE: AssistantResponseData = {
           link: "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO8164",
         },
       ],
-      povzetek:
-        "Delodajalec je neupravičeno zahteval diagnozo bolniškega staleža od zaposlenega. IP je ugotovil kršitev obdelave posebnih kategorij osebnih podatkov.",
+      povzetek: {
+        dejansko_stanje: "Delodajalec je od zaposlenega zahteval razkritje diagnoze bolniškega staleža kot pogoj za odobritev odsotnosti.",
+        pravno_stanje: "Podatki o zdravstvenem stanju spadajo med posebne kategorije osebnih podatkov po 9. členu GDPR, njihova obdelava je praviloma prepovedana.",
+        odgovor: "IP je ugotovil kršitev in delodajalcu naložil prenehanje zahtevanja diagnoz ter uskladitev postopkov z zakonodajo.",
+      },
     },
   ],
 };
