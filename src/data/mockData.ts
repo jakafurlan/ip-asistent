@@ -63,6 +63,44 @@ export const MOCK_RESPONSE: AssistantResponseData = {
         odgovor: "IP je ugotovil kršitev in delodajalcu naložil prenehanje zahtevanja diagnoz ter uskladitev postopkov z zakonodajo.",
       },
     },
+    {
+      naslov: "Hramba podatkov po prenehanju pogodbe",
+      stevilka: "0712-1/2021/201",
+      kategorije: ["Hramba podatkov", "Pogodbena obdelava"],
+      datum: "2021-03-22",
+      pravna_podlaga: [
+        {
+          cleni: ["GDPR-6", "GDPR-17"],
+          link: "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        },
+      ],
+      povzetek: {
+        dejansko_stanje: "Podjetje je hranilo osebne podatke strank več let po prenehanju pogodbene obveznosti brez ustrezne pravne podlage.",
+        pravno_stanje: "Po prenehanju namena obdelave je treba osebne podatke izbrisati ali anonimizirati v skladu s 17. členom GDPR.",
+        odgovor: "IP je odredil izbris osebnih podatkov strank, za katere ni več podlage za hrambo.",
+      },
+    },
+    {
+      naslov: "Uporaba piškotkov brez privolitve",
+      stevilka: "0712-1/2024/312",
+      kategorije: ["Piškotki", "Privolitev", "ePrivacy"],
+      datum: "2024-06-05",
+      pravna_podlaga: [
+        {
+          cleni: ["GDPR-6", "GDPR-7"],
+          link: "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        },
+        {
+          cleni: ["ZVOP-2-9"],
+          link: "http://www.pisrs.si/Pis.web/pregledPredpisa?id=ZAKO8164",
+        },
+      ],
+      povzetek: {
+        dejansko_stanje: "Spletna stran je nalagala sledilne piškotke pred pridobitvijo privolitve uporabnikov.",
+        pravno_stanje: "Nalaganje nebistvenih piškotkov zahteva predhodno, informirano in prostovoljno privolitev uporabnika.",
+        odgovor: "IP je ugotovil kršitev in odredil uvedbo ustreznega mehanizma za pridobivanje privolitev.",
+      },
+    },
   ],
 };
 
