@@ -76,7 +76,7 @@ const Index = () => {
               IP asistent
             </h1>
             <p className="text-xs text-muted-foreground">
-              Zastavite vrpašanja glede varstva osebnih podatkov.
+              Zastavite vprašanja glede varstva osebnih podatkov.
             </p>
           </div>
         </div>
