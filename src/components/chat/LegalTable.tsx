@@ -66,7 +66,7 @@ const LegalTable = ({ decisions }: LegalTableProps) => {
                     {d.povzetek.dejansko_stanje}
                   </li>
                   <li>
-                    <span className="font-semibold text-foreground">Pravno stanje: </span>
+                    <span className="font-semibold text-foreground">Pravno vprašanje: </span>
                     {d.povzetek.pravno_stanje}
                   </li>
                   <li>
