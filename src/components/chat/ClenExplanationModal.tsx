@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Loader2 } from "lucide-react";
+import { MOCK_CLEN_RESPONSES } from "@/data/mockData";
 
 interface ClenExplanationModalProps {
   open: boolean;
@@ -18,6 +19,16 @@ const ClenExplanationModal = ({ open, onClose, name }: ClenExplanationModalProps
     setLoading(true);
     setError(null);
     setExplanation(null);
+
+    // Check mock data first
+    const mockText = MOCK_CLEN_RESPONSES[name];
+    if (mockText) {
+      setTimeout(() => {
+        setExplanation(mockText);
+        setLoading(false);
+      }, 500);
+      return;
+    }
 
     fetch(`/api/clen?name=${encodeURIComponent(name)}`)
       .then(async (res) => {
