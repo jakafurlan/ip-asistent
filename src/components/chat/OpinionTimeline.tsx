@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { LegalDecision } from "@/types/chat";
-import { format, parseISO } from "date-fns";
+import { format, parse } from "date-fns";
 import { sl } from "date-fns/locale";
 import { ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -9,20 +9,29 @@ interface OpinionTimelineProps {
   decisions: LegalDecision[];
 }
 
+const parseDate = (dateStr: string) => {
+  try {
+    return parse(dateStr, "dd.MM.yyyy", new Date());
+  } catch {
+    return new Date(dateStr);
+  }
+};
+
+const formatDate = (dateStr: string) => {
+  try {
+    const parsed = parse(dateStr, "dd.MM.yyyy", new Date());
+    return format(parsed, "d. MMM yyyy", { locale: sl });
+  } catch {
+    return dateStr;
+  }
+};
+
 const OpinionTimeline = ({ decisions }: OpinionTimelineProps) => {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
   const sorted = [...decisions].sort(
-    (a, b) => new Date(a.datum).getTime() - new Date(b.datum).getTime()
+    (a, b) => parseDate(a.datum).getTime() - parseDate(b.datum).getTime()
   );
-
-  const formatDate = (dateStr: string) => {
-    try {
-      return format(parseISO(dateStr), "d. MMM yyyy", { locale: sl });
-    } catch {
-      return dateStr;
-    }
-  };
 
   return (
     <div className="pt-2 pb-1">
