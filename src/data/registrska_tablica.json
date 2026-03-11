@@ -490,5 +490,6 @@
         "odgovor": "1. Namen in pravna podlaga obdelave podatkov sta tesno prepletena, a vseeno ločena koncepta varstva osebnih podatkov: pravna podlaga predstavlja predpostavko, ki mora biti izpolnjena, zato da je obdelava podatkov sploh dopustna, medtem ko namen obdelave podatkov definira dopusten obseg obdelave (ne le z vidika kategorij podatkov, ki se lahko zbirajo, temveč tudi časovno), ki se vedno presoja glede na cilje, ki jih obdelava zasleduje. 2. IP zaključuje, da pravno podlago za obdelavo podatkov, ki so našteti v drugem odstavku 134. člena ZOP, predstavlja zakon v smislu točke (c) prvega odstavka 6. člena Splošne uredbe."
       }
     }
-  ]
+  ],
+  "contradiction_explanation": "Odgovora Obdelava osebnih podatkov s strani občine v okviru javnega razpisa (1) in ANPR na javnih površinah in pridobivanje podatkov iz evidence registriranih vozil (2) si neposredno nasprotujeta glede dopustnosti ANPR na javnih površinah: odgovor (1) uporabo ANPR na javnih površinah prepoveduje (kadar temelji na zakonski obveznosti ali javnem interesu), odgovor (2) pa jo izrecno dopušča, če upravljavec izkaže zakoniti interes (člen 6(1)(f)) ali pogodbeno obveznost (člen 6(1)(b)) – torej za isti kontekst (parkirišče trgovskega centra kot javna površina) podajata nasprotujoči si zaključki o zakonitosti obdelave."
 }
