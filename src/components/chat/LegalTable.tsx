@@ -71,8 +71,15 @@ const LegalTable = ({ decisions }: LegalTableProps) => {
         </thead>
         <tbody>
           {decisions.map((d, i) => (
-            <tr key={i} className="border-b border-border last:border-0 hover:bg-muted/30 transition-colors align-top">
-              <td className="px-3 py-3 font-medium">{d.naslov}</td>
+            <tr key={i} className={cn("border-b border-border last:border-0 hover:bg-muted/30 transition-colors align-top", d.contradiction && "relative")}>
+              <td className="px-3 py-3 font-medium">
+                <div className="flex items-start gap-2">
+                  {d.contradiction && (
+                    <div className="mt-0.5 w-0.5 min-w-[3px] self-stretch rounded-full bg-destructive" title="Nasprotujoče si mnenji" />
+                  )}
+                  <span>{d.naslov}</span>
+                </div>
+              </td>
               <td className="px-3 py-3 text-xs">
                 <a href={d.url} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors">
                   {d.številka}
