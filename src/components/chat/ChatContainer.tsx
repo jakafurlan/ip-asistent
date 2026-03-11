@@ -16,7 +16,7 @@ const ChatContainer = ({ messages }: ChatContainerProps) => {
 
   return (
     <div className="flex-1 overflow-y-auto scrollbar-thin bg-chat-bg">
-      <div className="mx-auto max-w-3xl space-y-6 p-6">
+      <div className="mx-auto max-w-6xl space-y-6 p-6">
         {messages.length === 0 && (
           <div className="flex flex-col items-center justify-center py-24 text-center">
             <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10">
