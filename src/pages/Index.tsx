@@ -5,6 +5,7 @@ import ChatInput from "@/components/chat/ChatInput";
 import { Scale } from "lucide-react";
 import { toast } from "sonner";
 import { MOCK_RESPONSE, MOCK_EMPTY_RESPONSE } from "@/data/mockData";
+import registrskaData from "@/data/registrska_tablica.json";
 
 const Index = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
