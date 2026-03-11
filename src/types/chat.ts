@@ -1,26 +1,21 @@
-export interface PravnaPodlaga {
-  cleni: string[];
-  link: string;
-}
-
 export interface Povzetek {
   dejansko_stanje: string;
-  pravno_stanje: string;
+  pravno_vprašanje: string;
   odgovor: string;
 }
 
 export interface LegalDecision {
   naslov: string;
-  stevilka: string;
+  številka: string;
   url: string;
   kategorije: string[];
   datum: string;
-  pravna_podlaga: PravnaPodlaga[];
+  pravna_podlaga: string[];
   povzetek: Povzetek;
 }
 
 export interface AssistantResponseData {
-  generalno_menje_o_zadevi: string;
+  generalno_mnenje_o_zadevi: string;
   table: LegalDecision[];
 }
 
