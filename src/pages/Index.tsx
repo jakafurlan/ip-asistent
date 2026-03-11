@@ -37,6 +37,9 @@ const Index = () => {
       } else if (q === "mock2") {
         await new Promise((r) => setTimeout(r, 1200));
         data = MOCK_EMPTY_RESPONSE;
+      } else if (q.includes("registrsk") && q.includes("osebni podatek")) {
+        await new Promise((r) => setTimeout(r, 1200));
+        data = registrskaData as AssistantResponseData;
       } else {
         const res = await fetch("/api/ask", {
           method: "POST",
