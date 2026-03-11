@@ -115,27 +115,22 @@
       }
     },
     {
-      "naslov": "Obdelava osebnih podatkov s strani občine v okviru javnega razpisa",
-      "url": "https://www.ip-rs.si/mnenja-zvop-2/obdelava-osebnih-podatkov-s-strani-občine-v-okviru-javnega-razpisa-1701688300",
-      "številka": "07121-1/2023/1489",
-      "contradiction": true,
+      "naslov": "Objava podatkov registriranih vozil",
+      "url": "https://www.ip-rs.si/mnenja-zvop-2/objava-podatkov-registriranih-vozil-1724752777",
+      "številka": "07121-1/2024/968",
       "kategorije": [
-        "Občine",
-        "Posredovanje osebnih podatkov",
-        "Pravne podlage"
+        "Definicija OP",
+        "Pravne podlage",
+        "Pridobivanje OP iz zbirk",
+        "Svetovni splet",
+        "Zbirke osebnih podatkov"
       ],
-      "datum": "28.11.2023",
-      "pravna_podlaga": [
-        "prvega odstavka 6. člena Splošne uredbe",
-        "6. člena ZVOP-2",
-        "6. člena Splošne uredbe",
-        "tretjega odstavka 6. člena Splošne uredbe",
-        "21. člen ZLS"
-      ],
+      "datum": "26.08.2024",
+      "pravna_podlaga": [],
       "povzetek": {
-        "dejansko_stanje": "Navajate, da občina objavlja razpise za sofinanciranje društev, pri čemer od društev zahteva, da pri prijavi predložijo poimenski spisek članov z naslovi stalnih prebivališč. Zanima vas, ali za ta spisek in podatke potrebujete soglasje članov?",
-        "pravno_vprašanje": "Navajate, da občina objavlja razpise za sofinanciranje društev, pri čemer od društev zahteva, da pri prijavi predložijo poimenski spisek članov z naslovi stalnih prebivališč. Zanima vas, ali za ta spisek in podatke potrebujete soglasje članov?",
-        "odgovor": "IP meni, da ima občina za namen odločanja o sofinanciranju in za namen nadzora nad zagotavljanjem namenskosti porabe programov, ki jih na podlagi javnega razpisa sofinancira, pravno podlago v točki c) prvega odstavka 6. člena Splošne uredbe ter drugem odstavku 6. člena ZVOP-2 v zvezi z 21. in 21.a členom Zakona o lokalni samoupravi (ZLS) za pridobitev in obdelavo tistih osebnih podatkov članov društva, ki so pomembni in potrebni za izvedbo razpisa. Predlagamo vam, da se pri upravljavcu (občini) prepričate o pravni podlagi in nujnosti obdelave zahtevanih osebnih podatkov. Če opisana pravna podlaga obstaja, vam posebnih privolitev s strani svojih članov ni treba pridobivati."
+        "dejansko_stanje": "v zvezi z objavami podatkov o registriranih vozilih v RS na portalu OPSI.",
+        "pravno_vprašanje": "Ali je dopustna obdelava osebnih podatkov v zvezi z: Objava podatkov registriranih vozil?",
+        "odgovor": "V zvezi z vašim vprašanjem vas seznanjamo, da je IP pri Ministrstvu za infrastrukturo začel inšpekcijski postopek. VIN za registrirana vozila je treba šteti za osebni podatek."
       }
     },
     {
